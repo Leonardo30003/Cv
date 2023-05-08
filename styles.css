@@ -4,16 +4,6 @@
     padding: 0;
 }
 
-section {
-    height: 130vh;
-}
-section#idiomas{
-    height:200 ;
-}
-section#RedesSociales{
-    height: 200;
-}
-
 section#hero {
     background-color: rgb(99, 40, 52);
     display: flex;
@@ -104,7 +94,7 @@ nav ul button {
 
 .RedesList {
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
 }
 
@@ -136,10 +126,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
+
     transition: transform 0.3s ease-out;
     
 }
 .TiposIdiomas:hover{
     transform: scale(1.2);
+}
+section#DatosInteres{
+        padding: 10px;
+            
+}
+footer{
+    background-color: rgb(99, 40, 52);
+}
+section#projects h2 {
+
+    margin: 40px;
+
+   
 }
